@@ -10,15 +10,14 @@
 
 <header class="d-flex p-2">
     <div class="flex-grow-1 mr-5 mm">
-        <!-- <h3 class="welcom bloc-img">SIMPLON.CO</h3> -->
-        <img src="{{}}" alt="logo">
+        <img src="{{asset('picture/logo.png')}}" width="160px" alt="logo">
     </div>
 
     <div class="align-item-end flex-grow-1">
         <nav>
             <ul class="d-flex justify-content-around h-75">
-                <li class="btn btn-dark mr-4"> <a class="text-light" href="">Acceuil</a> </li>
-                <li class="btn btn-dark mr-4"> <a class="text-light" href="">Actualié</a> </li>
+                <li class="btn btn-dark mr-4"> <a class="text-light" href="">Accueil</a> </li>
+                <li class="btn btn-dark mr-4"> <a class="text-light" href="">Actualité</a> </li>
                 <li class="btn btn-dark mr-4"> <a class="text-light" href=""> Evènenement</a> </li>
                 <li class="btn btn-dark mr-4"> <a class="text-light" href=""> Nos Apprenants</a> </li>
                 <li class="btn btn-dark mr-4"> <a class="text-light" href=""> Nos Alumnis</a> </li>

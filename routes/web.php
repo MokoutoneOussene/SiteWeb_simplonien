@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('include/header', function () {
+Route::get('Accueil', function () {
     return view('include/header');
 });
