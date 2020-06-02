@@ -13,3 +13,51 @@ header{
 .mm{
     background-color: white;
 }
+
+.info{
+    background-color: rgb(189, 7, 7);
+}
+
+.flash{
+    font-family:"Comic Sans MS";
+    font-size: 20px;
+    width: 10%;
+    border-right: 2px solid white;
+}
+
+.info-defil{
+    font-family:"cambria";
+    font-size: 20px;
+}
+
+#mt-contenaire{
+    background-color: rgb(235, 242, 243);
+    text-align: center;
+    font-family:"Comic Sans MS";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+#mt-form{
+    width: 70%;
+}
+
+.row .btn-dark{
+    font-size: 13px;
+}
+
+.mt-titre{
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.mt-actu{
+    box-shadow: 1px 2px 10px 0px #becad1;
+    background-color: white;
+    text-align: start;
+}

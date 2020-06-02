@@ -15,7 +15,7 @@ class CreateActualitesTable extends Migration
     {
         Schema::create('actualites', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nom');
+            $table->string('titre');
             $table->string('description');
             $table->timestamps();
         });

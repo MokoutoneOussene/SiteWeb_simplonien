@@ -11,10 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('Accueil', function () {
-    return view('include/header');
-});
+Route::get('/','HomeController@index');
+Route::get('form-actu','ActualiteController@creer');
+Route::post('ajout','ActualiteController@store');
+Route::get('/','ActualiteController@list');
+Route::get('Nos actualites','PageActuController@index');
